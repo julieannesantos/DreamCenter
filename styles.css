@@ -17,9 +17,9 @@ html {
 }
 .navbar-brand {
   float: left;
-  min-height: 15px;
+  min-height: 10px;
   max-height: 23px;
-  padding: 0 15px 5px;
+  padding: 5;
 }
 .navbar-inverse .navbar-nav .active a,  .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
@@ -41,13 +41,17 @@ html {
   background-color: #BFD3EC;
   border: 2px solid #C6DFE4;
 }
-.btn:hover {
-  style-color: #5E4485;
-}
-.container {
-  margin: 4% auto;
-}
 
+.container {
+  margin: 4% auto; 
+}
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 82px;
+  max-width: 240px;
+  margin-top: 0px;
+}
 
 
 /* ID */
