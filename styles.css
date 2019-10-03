@@ -45,14 +45,13 @@ h1 {
   color: rgb(168, 96, 96); 
 }
 .container {
-  margin: 4% auto; 
+  margin: 4%; 
 }
 .img-responsive {
-  height: auto;
-  width: auto;
-  max-height: 150px;
-  max-width: 185px;
-  margin: auto;
+  position:absolute;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
 }
 .footer {
   background-color: #F8BEBE;
@@ -67,7 +66,7 @@ h1 {
   background-color: #F8BEBE;
 }
 div.slide-left p {
-  animation: slide-left 15s;
+  animation: slide-left 12s;
 }
 .slide {
   font-size: 3em;
@@ -79,5 +78,7 @@ div.slide-left p {
  line-height: 50px;
  text-align: center;
 }
+.jumbotron {
+  background-image: url(img/floorplan.png);
 }
 /* ID */
