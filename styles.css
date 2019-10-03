@@ -1,25 +1,25 @@
 html {
   background-color: #BFD3EC;
 }
-
-
-
+h1 {
+  color: rgb(112, 62, 62);
+}
 
 /* class*/
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   background-color: #F8BEBE;
-  color: #FFF;
+  color: rgb(42, 46, 102);
   padding: 2% 0;
   font-size: 1.2em;
   border: 0;
 }
 .navbar-brand {
   float: left;
-  min-height: 10px;
-  max-height: 23px;
-  padding: 5;
+  min-width: auto;
+  max-width: 12px;
+  align-content: center;
 }
 .navbar-inverse .navbar-nav .active a,  .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
@@ -27,7 +27,7 @@ html {
 }
 
 .navbar-inverse .navbar-nav li a {
-  color: #D5D5D5;
+  color: rgb(42, 46, 102);
 }
 .carousel-caption {
   top: 50%;
@@ -41,17 +41,43 @@ html {
   background-color: #BFD3EC;
   border: 2px solid #C6DFE4;
 }
-
+.btn-default{
+  color: rgb(168, 96, 96); 
+}
 .container {
   margin: 4% auto; 
 }
 .img-responsive {
   height: auto;
   width: auto;
-  max-height: 82px;
-  max-width: 240px;
-  margin-top: 0px;
+  max-height: 150px;
+  max-width: 185px;
+  margin: auto;
 }
-
-
+.footer {
+  background-color: #F8BEBE;
+}
+.item {
+  width: auto;
+  height: auto;
+}
+.slide-left {
+  width:100%;
+  overflow:hidden;
+  background-color: #F8BEBE;
+}
+div.slide-left p {
+  animation: slide-left 15s;
+}
+.slide {
+  font-size: 3em;
+ color: rgb(148, 175, 226);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+}
+}
 /* ID */
