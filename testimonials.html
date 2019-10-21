@@ -4,48 +4,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <meta name="keywords" content="donate, help, apply">
   <meta name="author" content="Julie Anne, Lauren, Claire">
   <meta name="description" content="for children and women in need">
   <title>Dream Center of Jackson</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><img src="img/dclogo.png" class="img-responsive"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mission.html">Our Mission</a></li>
-          <li class="active"><a href="testimonials.html">Our Stories</a></li>
-          <li><a href="calendar.html">Join Us</a></li>
-          <li><a href="connect.html">Connect</a></li>
-          <li><a href="donate.html">Donate</a></li>
-
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="img/dclogo.png" class="img-responsive"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mission.html">Our Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html">Our Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="calendar.html">Calendar</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Connect With Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="connect.html">How to Get Help</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="help.html">How to Help Us</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="donate.html">Donate</a>
+        </li>
+      </ul>
+      
     </div>
   </nav>
+ 
 
-
-
-
-
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-center m-auto">
+            <h2>Testimonials</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+              </ol>   
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item next left">
+                  <div class="img-box"><img src="img/lexi.jpg" alt=""></div>
+                  <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box"><img src="img/lexi.jpg" alt=""></div>
+                  <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                  <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                </div>
+                <div class="item carousel-item active left">
+                  <div class="img-box"><img src="img/boat.jpg" alt=""></div>
+                  <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                  <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
   
-
+  
   </body>
 </html>
