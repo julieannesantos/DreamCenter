@@ -35,10 +35,6 @@ footer {
   background-image: url(img/floorplan.png);
 }
 
-.col-center {
-  margin: 0 auto;
-  float: none !important;
-}
 
 .carousel {
   margin: 50px auto;
@@ -52,19 +48,12 @@ footer {
   height: 0;
   overflow: hidden;
 }
+.carousel-inner {
+ 
 
-.testimonial-carousel .carousel-control.left {
-  left: 6%;
 }
-
-.testimonial-carousel .carousel-control.right {
-  right: 6%;
-
-  .testimonial-carousel .carousel-control::before {
-    font-size: 5rem;
-    color: rgba(0, 0, 0, .6);
-    transition: .4s;
-  }
-
-  /*  */
+#test {
+  border-radius: 90%;
+}
+ 
   /* ID */
