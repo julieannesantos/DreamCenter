@@ -15,7 +15,13 @@ h2 {
   position: relative;
   margin: 30px 0 60px;
 }
-
+.slide {
+  color: rgb(90, 90, 117); 
+  height: 30px;	
+  background-color: #BFD3EC;
+  overflow: hidden;
+ position: relative;
+}
 /* class*/
 .container {
   padding-right: 15px;
@@ -27,6 +33,10 @@ h2 {
 .navbar {
   background-color: #F8BEBE;
 }
+.nav-link {
+  color: rgb(114, 143, 179);
+ 
+}
 .collapse {
   float: right;
 }
@@ -37,12 +47,21 @@ footer {
 .jumbotron {
   background-image: url(img/floorplan.png);
 }
-
-
+.btn {
+  font-size: 20px;
+  color: #FFF;
+  padding: 5px 25px;
+  background-color:rgb(126, 152, 223);
+  border: 2px solid #FFF;
+}
+.btn:hover {
+  color: #F8BEBE;
+}
 .carousel {
   margin: 90px auto;
-  padding: 0 100px;
+  padding: 0 80px;
   position: relative;
+  height: 400px;
 }
 
 .responsiveCal {
@@ -53,9 +72,37 @@ footer {
 }
 
 #test {
-  border-radius: 1000%;
+  border-radius: 10000%;
   height: 560px;
   width: 500px;
 }
  
   /* ID */
+#links {
+  width: 12px;
+}
+
+
+
+
+
+
+
+/* media */
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+}
