@@ -41,22 +41,19 @@ p {
   background-color: rgb(240, 188, 188);
   margin-bottom: 0;
   border-radius: 0;
-  padding: 1% 0;
+  
   font-size: 1.2em;
   border: 0;
 }
 .nav-link {
   color: rgb(114, 143, 179);
-  float: right;
-}
- 
-.img-responsive {
-  
+
 }
 
 .collapse {
   float: right;
 }
+
 footer {
   background-color: rgb(240, 188, 188);
 }

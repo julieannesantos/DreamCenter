@@ -11,4 +11,3 @@ $('#carouselExampleIndicators').carousel({
   $(".right").click(function(){
     $("#carouselExampleIndicators").carousel("next");
   });
-});
