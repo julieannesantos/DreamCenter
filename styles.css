@@ -43,6 +43,9 @@ p {
 .nav-link {
   color: rgb(114, 143, 179);
  
+.img-responsive {
+  
+}
 }
 .collapse {
   float: right;
