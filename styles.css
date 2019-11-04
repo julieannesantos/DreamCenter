@@ -1,22 +1,28 @@
 body {
-  background-color: #BFD3EC;
+  background-color: rgb(182, 209, 241);
 }
 
 h1 {
   color: rgb(175, 80, 80);
+  font-family: 'Indie Flower', cursive;
 }
 
-h2 {
-  color: rgb(45, 122, 167);
+h2, h4 {
+  color: rgb(73, 121, 148);
   text-align: center;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Righteous', cursive;;
   font-weight: bold;
   position: relative;
   margin: 30px 0 60px;
 }
+h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(92, 105, 122);
+}
 p {
   display: block;
+  font-family: 'Mukta', sans-serif;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -36,30 +42,19 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
-
+/*  nav */
 .navbar {
   background-color: rgb(240, 188, 188);
   margin-bottom: 0;
   border-radius: 0;
-  
   font-size: 1.2em;
   border: 0;
 }
 .nav-link {
   color: rgb(114, 143, 179);
-
 }
-
 .collapse {
   float: right;
-}
-
-footer {
-  background-color: rgb(240, 188, 188);
-}
-
-.jumbotron {
-  background-image: url(img/floorplan.png);
 }
 .btn {
   font-size: 20px;
@@ -71,6 +66,55 @@ footer {
 .btn:hover {
   color: #F8BEBE;
 }
+/* index how we do it */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.hwdi {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 12px;
+}
+
+.hwdi img {
+  width: 100%;
+  height: auto;
+}
+
+.hwdi .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(85, 85, 85);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hwdi .btn:hover {
+  background-color: rgb(241, 167, 167);
+}
+
+
+
+footer {
+  background-color: rgb(240, 188, 188);
+}
+/* donate */
+.jumbotron {
+  background-image: url(img/donatehands.jfif);
+}
+
+/* homepage */
 .carousel {
   margin: 90px auto;
   padding: 0 80px;
@@ -136,5 +180,18 @@ footer {
   }
   h2 {
     font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
