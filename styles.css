@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(182, 209, 241);
+  background-color: #c8defa;
 }
 
 h1 {
@@ -31,7 +31,7 @@ p {
 .slide {
   color: rgb(90, 90, 117); 
   height: 30px;	
-  background-color: #BFD3EC;
+  background-color: #c8defa;
   overflow: hidden;
  position: relative;
 }
@@ -44,27 +44,37 @@ p {
 }
 /*  nav */
 .navbar {
-  background-color: rgb(240, 188, 188);
+  background-color: rgb(235, 193, 193);
   margin-bottom: 0;
   border-radius: 0;
   font-size: 1.2em;
   border: 0;
 }
+nav li {
+  float: right;
+  margin: auto 12px;
+}
 .nav-link {
   color: rgb(114, 143, 179);
+  
+}
+.navbar-toggler {
+  border: 2px solid rgb(35, 52, 68) ;
 }
 .collapse {
   float: right;
 }
 .btn {
   font-size: 20px;
-  color: #FFF;
+  color: rgb(64, 91, 148);
   padding: 5px 25px;
-  background-color:rgb(126, 152, 223);
-  border: 2px solid #FFF;
+  background-color:rgb(235, 193, 193);
+  border: 3px solid rgb(243, 212, 212);
+  border-radius: 4px;
 }
 .btn:hover {
-  color: #F8BEBE;
+  color: rgb(20, 22, 26);
+  background-color:rgb(231, 74, 134);
 }
 /* index how we do it */
 .row {
@@ -76,7 +86,7 @@ p {
   position: relative;
   width: 100%;
   max-width: 400px;
-  padding-bottom: 12px;
+  padding-bottom: 22px;
 }
 
 .hwdi img {
@@ -90,24 +100,21 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgb(85, 85, 85);
-  color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: auto;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
 }
 
-.hwdi .btn:hover {
-  background-color: rgb(241, 167, 167);
-}
-
-
-
 footer {
-  background-color: rgb(240, 188, 188);
+  background-color: rgb(235, 193, 193);
+}
+footer .btn {
+  background-color: rgb(230, 50, 155);
+  color: black;
+  margin-top: 40px;
 }
 /* donate */
 .jumbotron {
