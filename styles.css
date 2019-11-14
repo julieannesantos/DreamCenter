@@ -4,14 +4,14 @@ body {
 
 h1 {
   color: rgb(52, 56, 94);
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Muli', sans-serif;
 }
 
 h2, h4 {
   color: rgb(73, 121, 148);
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Righteous', cursive;;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   position: relative;
   margin: 30px 0 60px;
@@ -22,7 +22,7 @@ h3, h5 {
 }
 p {
   display: block;
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -61,6 +61,7 @@ nav li {
 .navbar-toggler {
   border: 2px solid rgb(35, 52, 68) ;
 }
+
 .collapse {
   float: right;
 }
@@ -111,14 +112,20 @@ nav li {
 footer {
   background-color: rgb(235, 193, 193);
 }
+
 footer .btn {
-  background-color: rgb(230, 50, 155);
+  background-color: rgb(236, 54, 160);
   color: black;
   margin-top: 40px;
 }
+
 /* donate */
 .jumbotron {
-  background-image: url(img/donatehands.jfif);
+  background-image: url(img/donate.jpg);
+}
+/* missions */
+p .staff {
+  padding: 6em;
 }
 
 /* homepage */
