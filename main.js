@@ -30,3 +30,4 @@ $('#carouselExampleIndicators').carousel({
       $('.animated-icon3').toggleClass('open');
     });
   });
+  
