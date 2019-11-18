@@ -121,7 +121,9 @@ footer .btn {
 
 /* donate */
 .jumbotron {
-  background-image: url(img/donate.jpg);
+  background-image: url(img/fearless.jpg);
+  position: relative;
+  
 }
 /* missions */
 p .staff {
