@@ -8,7 +8,7 @@ h1 {
 }
 
 h2, h4 {
-  color: rgb(73, 121, 148);
+  color: rgb(47, 56, 68);
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lora', serif;
@@ -16,10 +16,12 @@ h2, h4 {
   position: relative;
   margin: 30px 0 60px;
 }
+
 h3, h5 {
   font-family: 'Lora', serif;
   color: rgb(47, 56, 68);
 }
+
 p {
   display: block;
   font-family: 'Karla', sans-serif;
@@ -28,20 +30,18 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 .slide {
-  color: rgb(90, 90, 117); 
-  height: 30px;	
+  color: rgb(90, 90, 117);
+  height: 30px;
   background-color: #c8defa;
   overflow: hidden;
- position: relative;
+  position: relative;
 }
+
 /* class*/
-.container {
-  padding-right: 17px;
-  padding-left: 17px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
+
 /*  nav */
 .navbar {
   background-color: rgb(235, 193, 193);
@@ -50,43 +50,57 @@ p {
   font-size: 1.2em;
   border: 0;
 }
+
 nav li {
   float: right;
   margin: auto 12px;
 }
+
 .nav-link {
   color: rgb(114, 143, 179);
   font-family: 'Karla', sans-serif;
 }
+
 .navbar-toggler {
-  border: 2px solid rgb(35, 52, 68) ;
+  border: 2px solid rgb(35, 52, 68);
 }
 
 .collapse {
   float: right;
 }
+
 .btn {
   font-size: 20px;
   color: rgb(64, 91, 148);
   padding: 5px 25px;
-  background-color:rgb(235, 193, 193);
+  background-color: rgb(235, 193, 193);
   border: 3px solid rgb(243, 212, 212);
   border-radius: 4px;
 }
+
 .btn:hover {
   color: rgb(20, 22, 26);
-  background-color:rgb(231, 74, 134);
+  background-color: rgb(231, 74, 134);
 }
 
-a:link {
-  color: rgb(77, 195, 255);
+.wishlist {
+  background-color: rgb(235, 193, 193);
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  color: rgb(114, 143, 179);
+  font-family: 'Karla', sans-serif;
 }
+
 /* index how we do it */
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
+
 .hwdi {
   position: relative;
   width: 100%;
@@ -127,8 +141,8 @@ footer .btn {
 .jumbotron {
   background-image: url(img/fearless.jpg);
   position: relative;
-  
 }
+
 /* missions */
 p .staff {
   padding: 6em;
@@ -136,10 +150,11 @@ p .staff {
 
 /* homepage */
 .carousel {
-  margin: 90px auto;
-  padding: 0 80px;
+  margin: auto;
+  padding: 0;
   position: relative;
-  height: 400px;
+  height: 500px;
+  width: ;
 }
 
 .staff-container {
@@ -154,7 +169,6 @@ p .staff {
 }
 
 /* testimonials*/
-
 .img-box {
   display: block;
   position: relative;
@@ -164,6 +178,7 @@ p .staff {
   overflow: hidden;
   border-radius: 50%;
 }
+
 .img-box img {
   width: 100%;
   height: 100%;
@@ -171,18 +186,11 @@ p .staff {
   border-radius: 50%;
 }
 
-
-  /* ID */
+/* ID */
 #links {
   width: auto;
   height: auto;
 }
-
-
-
-
-
-
 
 /* media */
 @media (max-width: 900px) {
@@ -191,23 +199,28 @@ p .staff {
     padding: 10px;
   }
 }
+
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
   }
+
   #icon {
     max-width: 150px;
   }
+
   h2 {
     font-size: 1.7em;
   }
 }
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
