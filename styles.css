@@ -18,7 +18,7 @@ h2, h4 {
 }
 h3, h5 {
   font-family: 'Lora', serif;
-  color: rgb(92, 105, 122);
+  color: rgb(47, 56, 68);
 }
 p {
   display: block;
@@ -76,6 +76,10 @@ nav li {
 .btn:hover {
   color: rgb(20, 22, 26);
   background-color:rgb(231, 74, 134);
+}
+
+a:link {
+  color: rgb(77, 195, 255);
 }
 /* index how we do it */
 .row {
