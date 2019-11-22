@@ -1,3 +1,4 @@
+/* all */
 body {
   background-color: #d3e6ff;
 }
@@ -39,7 +40,6 @@ p {
   position: relative;
 }
 
-/* class*/
 /*  nav */
 .navbar {
   background-color: rgb(235, 193, 193);
@@ -70,7 +70,7 @@ a:hover {
 .collapse {
   color: #0a2549;
 }
-
+/* all */
 .btn {
   font-size: 20px;
   color: rgb(64, 91, 148);
@@ -95,6 +95,7 @@ a:hover {
   color: rgb(114, 143, 179);
   font-family: 'Karla', sans-serif;
 }
+
 
 /* index how we do it */
 .row {
@@ -129,16 +130,6 @@ a:hover {
   text-align: center;
 }
 
-footer {
-  background-color: rgb(235, 193, 193);
-}
-
-footer .btn {
-  background-color: rgb(86, 128, 243);
-  color: black;
-  margin-top: 40px;
-}
-
 /* donate */
 .jumbotron {
   background-image: url(img/jackson.jpg);
@@ -149,6 +140,9 @@ footer .btn {
 /* missions */
 p .staff {
   padding: 6em;
+}
+.card {
+  border-spacing: 15px;
 }
 
 /* homepage */
@@ -169,10 +163,7 @@ p .staff {
   justify-content: space-around;
 }
 
-/* missions*/
-.card {
-  border-spacing: 15px;
-}
+
 
 /* testimonials*/
 .img-box {
@@ -257,19 +248,14 @@ p .staff {
   height: 60px;
   border: none;
   width: 100%;
+}
 
-  &:hover,
-  &:focus {
-    background-color: white;
-  }
-}
-}
 
 .contact-wrap {
   padding: 15px;
 }
 
-h1 {
+h1  {
   padding: 40px;
   margin: 0 0 50px;
   font-size: 30px;
@@ -285,19 +271,33 @@ h1 {
     margin-top: 10px;
   }
 }
-
 /* Contact */
+
 /* ID */
 #links {
   width: auto;
   height: auto;
 }
 
+/* footer */
+footer {
+  background-color: rgb(235, 193, 193);
+}
+
+footer .btn {
+  background-color: rgb(86, 128, 243);
+  color: black;
+  margin-top: 40px;
+}
 /* media */
 @media (max-width: 900px) {
   .fa {
     font-size: 20px;
     padding: 10px;
+  }
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
@@ -313,27 +313,13 @@ h1 {
   h2 {
     font-size: 1.7em;
   }
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-//tablet and above devices
-@media (min-width: 768px) {
   .contact-wrap {
     width: 60%;
     margin: auto;
   }
 }
+
