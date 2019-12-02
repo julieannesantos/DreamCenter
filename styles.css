@@ -39,6 +39,19 @@ p {
   overflow: hidden;
   position: relative;
 }
+.btn {
+  font-size: 20px;
+  color: rgb(64, 91, 148);
+  padding: 5px 25px;
+  background-color: rgb(235, 193, 193);
+  border: 3px solid rgb(243, 212, 212);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  color: rgb(20, 22, 26);
+  background-color: rgb(231, 74, 134);
+}
 
 /*  nav */
 .navbar {
@@ -70,32 +83,20 @@ a:hover {
 .collapse {
   color: #0a2549;
 }
-/* all */
-.btn {
-  font-size: 20px;
-  color: rgb(64, 91, 148);
-  padding: 5px 25px;
-  background-color: rgb(235, 193, 193);
-  border: 3px solid rgb(243, 212, 212);
-  border-radius: 4px;
+
+
+
+/* homepage */
+.carousel {
+  margin: auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-.btn:hover {
-  color: rgb(20, 22, 26);
-  background-color: rgb(231, 74, 134);
+.carousel-control {
+  color: rgb(110, 168, 204);
 }
-
-.wishlist {
-  background-color: rgb(235, 193, 193);
-  text-decoration: none;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  display: block;
-  color: rgb(114, 143, 179);
-  font-family: 'Karla', sans-serif;
-}
-
 
 /* index how we do it */
 .row {
@@ -137,24 +138,23 @@ a:hover {
   height: 100%;
 }
 
+.wishlist {
+  background-color: rgb(235, 193, 193);
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  color: rgb(114, 143, 179);
+  font-family: 'Karla', sans-serif;
+}
+
 /* missions */
 p .staff {
   padding: 6em;
 }
 .card {
   border-spacing: 15px;
-}
-
-/* homepage */
-.carousel {
-  margin: auto;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-.carousel-control {
-  color: rgb(110, 168, 204);
 }
 
 .staff-container {

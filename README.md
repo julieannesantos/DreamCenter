@@ -1,4 +1,4 @@
-1. make comments on on html and css
+1. make comments on all html and css
 2. install beautifier 
 3. organize css
 4. " Image Resizer "
