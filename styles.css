@@ -11,7 +11,6 @@ h1 {
 h2, h4 {
   color: rgb(46, 56, 70);
   text-align: center;
-  text-transform: ;
   font-family: 'Capriola', sans-serif;
   font-weight: bold;
   position: relative;
@@ -23,6 +22,10 @@ h3, h5 {
   color: rgb(47, 56, 68);
 }
 
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
 p {
   display: block;
   font-family: 'Raleway', sans-serif;
@@ -32,25 +35,22 @@ p {
   margin-inline-end: 0px;
 }
 
-.slide {
-  color: rgb(90, 90, 117);
-  height: 30px;
-  background-color: #d3e6ff;
-  overflow: hidden;
-  position: relative;
+a {
+  font-family: 'Capriola', sans-serif;
+
 }
 .btn {
   font-size: 20px;
   color: rgb(64, 91, 148);
   padding: 5px 25px;
   background-color: rgb(235, 193, 193);
-  border: 3px solid rgb(243, 212, 212);
-  border-radius: 4px;
-}
-
-.btn:hover {
-  color: rgb(20, 22, 26);
-  background-color: rgb(231, 74, 134);
+  border: 3px solid rgb(243, 212, 212); 
+  border-radius: 4px; 
+} 
+ 
+.btn:hover { 
+  color: rgb(20, 22, 26); 
+  background-color: rgb(231, 74, 134); 
 }
 
 /*  nav */
@@ -133,10 +133,22 @@ a:hover {
 
 /* donate */
 .jumbotron {
-  background-image: url(img/jackson.jpg);
-  position: relative;
-  height: 100%;
+  background-image:url(img/background.jfif);
+  height:460px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid #8eace4
 }
+.jumbotron .container {
+  position:relative;
+  top:90px;
+}
+
+.jumbotron .btn {
+  align-content: center;
+  
+}
+
 
 .wishlist {
   background-color: rgb(235, 193, 193);
@@ -151,10 +163,10 @@ a:hover {
 
 /* missions */
 p .staff {
-  padding: 6em;
+  padding: 2em;
 }
 .card {
-  border-spacing: 15px;
+  border-spacing: 10px;
 }
 
 .staff-container {
@@ -196,6 +208,7 @@ p .staff {
   padding: 25px;
   position: relative;
   margin-bottom: 20px;
+
 
   .focus {
     background-color: $form-bg;
@@ -273,12 +286,6 @@ h1  {
 }
 /* Contact */
 
-/* ID */
-#links {
-  width: auto;
-  height: auto;
-}
-
 /* footer */
 footer {
   background-color: rgb(235, 193, 193);
@@ -323,6 +330,12 @@ footer .btn {
   .contact-wrap {
     width: 60%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .row-to-column {
+    flex-direction: column;
   }
 }
 
