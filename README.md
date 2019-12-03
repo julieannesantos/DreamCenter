@@ -16,4 +16,6 @@ Calendar should fill the page and not be Claire's calendar. They may already hav
 
 Content for "Our Mission"
 
+You might want to consider 3 different pics on the home page for "How We Do It"
+
 Site looks REALLY nice. Good Job ladies!!!
