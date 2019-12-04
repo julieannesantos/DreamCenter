@@ -36,6 +36,7 @@ h6 {
 p {
   display: block;
   font-family: 'Raleway', sans-serif;
+  font-size: 10 px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -47,6 +48,7 @@ i{
 }
 a {
   font-family: 'Capriola', sans-serif;
+  color: #364e6d;
 
 }
 
@@ -100,11 +102,6 @@ a:hover {
   color: rgb(231, 74, 134);
 }
 
-.collapse {
-  color: #4c596b;
-}
-
-
 
 /* homepage */
 .carousel {
@@ -121,8 +118,17 @@ a:hover {
 .caption-carousel {
   color: rgb(255, 255, 255);
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0.35);
   border-radius: 25px;
+}
+
+.hp-icon {
+  color: white;
+  size: 70 px;
+}
+
+.icon-container {
+  background-color: rgb(86, 128, 243);
 }
 /* index how we do it */
 .row {
@@ -175,7 +181,12 @@ a:hover {
   align-content: center;
 
 }
-
+.donate {
+  font-size: 56px;
+  color: rgb(231, 74, 134);
+  font-family: 'Merriweather', serif;
+  
+}
 /* missions */
 p .staff {
   padding: 2em;
@@ -224,7 +235,6 @@ p .staff {
 
   color: #364e6d;
 }
-
 /* donate */
 button{
   border: none;
