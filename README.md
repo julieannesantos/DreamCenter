@@ -4,8 +4,13 @@
 4. " Image Resizer "
 5. test links
 6. make sure it answers the 4 questions
-<<<<<<< HEAD
-=======
+
+
+
+How about "12 Months Of Progress" on the home page?
+
+
+
 
 
 Update Keywords for each page. They should include Dream Center, Jackson, TN and the content that someone might search for to land on that page.
@@ -21,4 +26,4 @@ Content for "Our Mission"
 You might want to consider 3 different pics on the home page for "How We Do It"
 
 Site looks REALLY nice. Good Job ladies!!!
->>>>>>> dcd6454a44d036453aa565d8bdcf2758f1e0d0c9
+
