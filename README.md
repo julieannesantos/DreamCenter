@@ -1,5 +1,5 @@
 1. make comments on all html and css
-2. install beautifier 
+2. install beautifier
 3. organize css
 4. " Image Resizer "
 5. test links
