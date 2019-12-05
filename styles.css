@@ -123,8 +123,14 @@ a:hover {
 }
 
 .hp-icon {
-  color: white;
-  size: 70 px;
+  color: whitesmoke;
+  size: 100 px;
+}
+
+.icon-txt {
+  color: whitesmoke;
+  font-size: 25 px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .icon-container {
