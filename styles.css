@@ -259,6 +259,13 @@ button{
   color: rgb(114, 143, 179);
   font-family: 'Karla', sans-serif;
 }
+.donate1 {
+  color: #3e385a;
+  background-color: rgb(235, 193, 193);
+  font-size: 1.8em;
+  text-align: center;
+  
+  }
 /* Contact */
 
   .textarea {
