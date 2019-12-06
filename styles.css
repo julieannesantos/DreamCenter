@@ -9,7 +9,7 @@ h1 {
 }
 
 h2, h4 {
-  color: rgb;
+  color: rgb(64, 91, 148);
   text-align: center;
   font-family: 'Capriola', sans-serif;
   font-weight: bold;
@@ -121,7 +121,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.35);
   border-radius: 25px;
 }
-
+.snapshot {
+  background-color: #364e6d;
+}
 .hp-icon {
   color: whitesmoke;
   size: 100 px;
@@ -206,7 +208,9 @@ p .staff {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+.mission {
+  
+}
 
 
 /* testimonials*/
