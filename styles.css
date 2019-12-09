@@ -123,23 +123,34 @@ a:hover {
 }
 
 .snapshot {
+  color: rgb(231, 74, 134);
   background-color: #364e6d;
+  padding: 1.5%;
 }
 
 .hp-icon {
   color: whitesmoke;
-  size: 100 px;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.center-icon {
+  text-align: center;
 }
 
 .icon-txt {
   color: whitesmoke;
-  font-size: 25 px;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
+  display: inline;
+  text-align: center;
 }
 
 .icon-container {
   background-color: rgb(86, 128, 243);
 }
+
+
 
 /* index how we do it */
 .row {
@@ -275,6 +286,10 @@ button {
   font-size: 1.8em;
   text-align: center;
 }
+.donate2 {
+  text-align: center;
+  color: #4b0d32;
+}
 
 /* Contact */
 .textarea {
@@ -291,7 +306,6 @@ button {
   text-align: center;
 }
 
-/* Contact */
 /* footer */
 footer {
   background-color: rgb(235, 193, 193);
@@ -346,7 +360,7 @@ footer .btn {
   }
 
   p {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .column {
