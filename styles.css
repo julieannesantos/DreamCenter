@@ -33,6 +33,7 @@ h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
+
 p {
   display: block;
   font-family: 'Raleway', sans-serif;
@@ -43,16 +44,14 @@ p {
   margin-inline-end: 0px;
 }
 
-i{
+i {
   size: 2x;
 }
+
 a {
   font-family: 'Capriola', sans-serif;
   color: #364e6d;
-
 }
-
-
 
 .btn {
   font-size: 20px;
@@ -91,17 +90,18 @@ nav li {
   border: 1.5px solid #ffe6e6;
 }
 
-.custom-toggler{
+.custom-toggler {
   border-color: rgb(207, 222, 235);
 }
- .fa-bars {
-   color:#fff;
-   font-size:28px;
- }
+
+.fa-bars {
+  color: #fff;
+  font-size: 28px;
+}
+
 a:hover {
   color: rgb(231, 74, 134);
 }
-
 
 /* homepage */
 .carousel {
@@ -121,9 +121,11 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.35);
   border-radius: 25px;
 }
+
 .snapshot {
   background-color: #364e6d;
 }
+
 .hp-icon {
   color: whitesmoke;
   size: 100 px;
@@ -138,6 +140,7 @@ a:hover {
 .icon-container {
   background-color: rgb(86, 128, 243);
 }
+
 /* index how we do it */
 .row {
   display: flex;
@@ -173,32 +176,33 @@ a:hover {
 
 /* donate */
 .jumbotron {
-  background-image:url(img/background.jfif);
-  height:460px;
+  background-image: url(img/background.jfif);
+  height: 460px;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom:1px solid #8eace4
+  border-bottom: 1px solid #8eace4
 }
 
 .jumbotron .container {
-  position:relative;
-  top:90px;
+  position: relative;
+  top: 90px;
 }
 
 .jumbotron .btn {
   align-content: center;
-
 }
+
 .donate {
   font-size: 56px;
   color: rgb(231, 74, 134);
   font-family: 'Merriweather', serif;
-  
 }
+
 /* missions */
 p .staff {
   padding: 2em;
 }
+
 .card {
   border-spacing: 10px;
 }
@@ -208,10 +212,8 @@ p .staff {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.mission {
-  
-}
 
+.mission {}
 
 /* testimonials*/
 .img-box {
@@ -230,23 +232,26 @@ p .staff {
   display: block;
   border-radius: 50%;
 }
+
 /* get help */
 .get {
   text-align: center;
   color: #24045f;
   padding: 2% 10%;
 }
+
 .get-help {
   padding: 2%;
   text-align: center;
   color: #445a86;
 }
-.gethelp {
 
+.gethelp {
   color: #364e6d;
 }
+
 /* donate */
-button{
+button {
   border: none;
   background-color: none;
   padding: none;
@@ -263,29 +268,30 @@ button{
   color: rgb(114, 143, 179);
   font-family: 'Karla', sans-serif;
 }
+
 .donate1 {
   color: #3e385a;
   background-color: rgb(235, 193, 193);
   font-size: 1.8em;
   text-align: center;
-  
-  }
-/* Contact */
+}
 
-  .textarea {
-    height: auto;
-  }
+/* Contact */
+.textarea {
+  height: auto;
+}
+
 #contact {
   background-color: rgb(86, 128, 243);
   color: black;
   font-family: Georgia, serif;
 }
+
 .form-submit {
   text-align: center;
-
 }
-/* Contact */
 
+/* Contact */
 /* footer */
 footer {
   background-color: rgb(235, 193, 193);
@@ -301,24 +307,25 @@ footer .btn {
   font-size: 25px;
 }
 
-.footer-body  {
+.footer-body {
   font-size: 18px;
 }
 
 .media-link {
   font-size: 30px;
 }
+
 /* media */
 @media (max-width: 900px) {
   .fa {
     font-size: 20px;
     padding: 10px;
   }
+
   .column {
     flex: 50%;
     max-width: 50%;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -333,16 +340,20 @@ footer .btn {
   h2 {
     font-size: 1.7em;
   }
+
   h3 h4 h5 {
     font-size: 1.3em;
   }
+
   p {
     font-size: 1.3em;
   }
+
   .column {
     flex: 100%;
     max-width: 100%;
   }
+
   .contact-wrap {
     width: 60%;
     margin: auto;
