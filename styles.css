@@ -21,6 +21,7 @@ h3 {
   font-family: 'Lora', serif;
   color: rgb(47, 56, 68);
   font-size: 35px;
+ 
 }
 
 h5 {
@@ -160,11 +161,16 @@ a:hover {
   padding: 0 4px;
 }
 
+.how {
+  padding-top: 20px;
+  font-size: 2.6em;
+}
 .hwdi {
   position: relative;
   width: 100%;
   max-width: 400px;
-  padding-bottom: 22px;
+  padding-bottom: 20px;
+
 }
 
 .hwdi img {
@@ -217,7 +223,9 @@ p .staff {
 
 .card {
   border-spacing: 10px;
-}
+   
+ }
+
 
 .staff-container {
   flex-direction: row;
@@ -225,7 +233,6 @@ p .staff {
   justify-content: space-around;
 }
 
-.mission {}
 
 /* testimonials*/
 .img-box {
@@ -248,8 +255,9 @@ p .staff {
 /* get help */
 .get {
   text-align: center;
-  color: #24045f;
+  color: #1f0353;
   padding: 2% 10%;
+  font-size: 1.8em;
 }
 
 .get-help {
@@ -261,7 +269,11 @@ p .staff {
 .gethelp {
   color: #364e6d;
 }
-
+.help {
+  font-size: 1.5em;
+  text-align: center;
+  color: rgb(51, 53, 160);
+}
 /* donate */
 button {
   border: none;
@@ -373,10 +385,9 @@ footer .btn {
     width: 60%;
     margin: auto;
   }
-}
-
-@media screen and (max-width: 760px) {
   .row-to-column {
     flex-direction: column;
   }
 }
+
+
