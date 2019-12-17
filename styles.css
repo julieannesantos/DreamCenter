@@ -67,6 +67,9 @@ a {
   background-color: rgb(231, 74, 134);
 }
 
+.center {
+  text-align: center;
+}
 /*  nav */
 .navbar {
   background-color: rgb(235, 193, 193);
