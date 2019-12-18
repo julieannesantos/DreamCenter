@@ -37,7 +37,7 @@ h6 {
 p {
   display: block;
   font-family: 'Raleway', sans-serif;
-  font-size: 10 px;
+  font-size: 10px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -224,6 +224,12 @@ p .staff {
   justify-content: space-around;
 }
 
+.email-txt {
+  font-family: 'Capriola', sans-serif;
+  color: #364e6d;
+  font-size: 12px;
+  font-weight: bold;
+}
 /* testimonials*/
 .img-box {
   display: block;
